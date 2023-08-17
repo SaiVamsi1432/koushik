@@ -3,7 +3,7 @@
   <groupId>com.example</groupId>
   <artifactId>my-webapp</artifactId>
   <packaging>war</packaging>
-  <version>1.1</version>
+  <version>1.4-SNAPSHOT</version>
   <name>my-webapp Maven Webapp</name>
   <url>http://maven.apache.org</url>
   
@@ -94,6 +94,8 @@
             <version>3.0.1</version>
             <configuration>
                 <tagNameFormat>@{project.version}</tagNameFormat>
+                  <autoVersionSubmodules>true</autoVersionSubmodules>
+                    <dryRun>${dryRun}</dryRun>
             </configuration>
         </plugin>
     </plugins>
