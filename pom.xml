@@ -95,7 +95,16 @@
                 <tagNameFormat>v@{project.version}</tagNameFormat>
 
             </configuration>
+
+        
+
         </plugin>
     </plugins>
   </build>
+<distributionManagement>
+  <repository>
+    <id>github</id>
+    <url>https://github.com/koushikdpk/Zafin-localRepo.git</url>
+  </repository>
+</distributionManagement>
 </project>
