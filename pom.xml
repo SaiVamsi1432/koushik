@@ -21,6 +21,13 @@
     </dependency>
   </dependencies>
   
+  <scm>
+    <connection>scm:git:https://github.com/koushikdpk/Zafin-localRepo.git</connection>
+    <developerConnection>scm:git:https://github.com/koushikdpk/Zafin-localRepo.git</developerConnection>
+    <tag>maven-release-3.0.1</tag>
+    <url>https://github.com/koushikdpk/Zafin-localRepo</url>
+  </scm>
+
   <build>
     <finalName>my-webapp</finalName>
     
