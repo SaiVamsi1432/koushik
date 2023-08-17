@@ -92,9 +92,8 @@
             <artifactId>maven-release-plugin</artifactId>
             <version>3.0.1</version>
             <configuration>
-                <tagNameFormat>@{project.version}</tagNameFormat>
-                  <autoVersionSubmodules>true</autoVersionSubmodules>
-                    <dryRun>${dryRun}</dryRun>
+                <tagNameFormat>v@{project.version}</tagNameFormat>
+
             </configuration>
         </plugin>
     </plugins>
