@@ -3,7 +3,7 @@
   <groupId>com.example</groupId>
   <artifactId>my-webapp</artifactId>
   <packaging>war</packaging>
-  <version>1.1</version>
+  <version>1.1-SNAPSHOT</version>
   <name>my-webapp Maven Webapp</name>
   <url>http://maven.apache.org</url>
   
@@ -22,11 +22,11 @@
   </dependencies>
   
   <scm>
-    <connection>scm:git:https://github.com/koushikdpk/zaf.git</connection>
-    <developerConnection>scm:git:https://github.com/koushikdpk/zaf.git</developerConnection>
+    <connection>scm:git:https://github.com/koushikdpk/Zafin-localRepo.git</connection>
+    <developerConnection>scm:git:https://github.com/koushikdpk/Zafin-localRepo.git</developerConnection>
 
-    <url>https://github.com/koushikdpk/zaf</url>
-    <tag>v1.1</tag>
+    <url>https://github.com/koushikdpk/Zafin-localRepo</url>
+    <tag>v1.0</tag>
   </scm>
 
   <build>
