@@ -17,7 +17,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="C:\Program Files (x86)\Java\jdk-11\bin"/>
-    <property name="sun.java.command" value="C:\Users\Geico\AppData\Local\Temp\surefire35411872528430823\surefirebooter8487742335242945518.jar C:\Users\Geico\AppData\Local\Temp\surefire35411872528430823 2023-08-18T07-32-25_346-jvmRun1 surefire18130330858552072177tmp surefire_0480372579779994734tmp"/>
+    <property name="sun.java.command" value="C:\Users\Geico\AppData\Local\Temp\surefire12772576921928126472\surefirebooter15854616667966036504.jar C:\Users\Geico\AppData\Local\Temp\surefire12772576921928126472 2023-08-18T07-33-39_143-jvmRun1 surefire4443549258268334099tmp surefire_014807111535981902969tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="D:\Zafin\my-webapp\target\test-classes;D:\Zafin\my-webapp\target\classes;C:\Users\Geico\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\Geico\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -33,7 +33,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\Geico\AppData\Local\Temp\surefire35411872528430823\surefirebooter8487742335242945518.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Geico\AppData\Local\Temp\surefire12772576921928126472\surefirebooter15854616667966036504.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="11.0.18+9-LTS-195"/>
