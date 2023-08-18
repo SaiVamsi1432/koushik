@@ -3,7 +3,7 @@
   <groupId>com.example</groupId>
   <artifactId>my-webapp</artifactId>
   <packaging>war</packaging>
-  <version>1.0</version>
+  <version>1.0-SNAPSHOT</version>
   <name>my-webapp Maven Webapp</name>
   <url>http://maven.apache.org</url>
   
@@ -11,7 +11,6 @@
     <maven.compiler.source>1.8</maven.compiler.source>
     <maven.compiler.target>1.8</maven.compiler.target>
   </properties>
-  
   <dependencies>
    <dependency>
         <groupId>junit</groupId>
@@ -20,18 +19,14 @@
         <scope>test</scope>
     </dependency>
   </dependencies>
-  
   <scm>
     <connection>scm:git:https://github.com/koushikdpk/skills-deploy-to-azure.git</connection>
     <developerConnection>scm:git:https://github.com/koushikdpk/skills-deploy-to-azure.git</developerConnection>
-
     <url>https://github.com/koushikdpk/skills-deploy-to-azure</url>
     <tag>v1.0</tag>
   </scm>
-
   <build>
     <finalName>my-webapp</finalName>
-    
     <plugins>
       <!-- Maven Tomcat Plugin -->
       <plugin>
@@ -95,9 +90,6 @@
                 <tagNameFormat>v@{project.version}</tagNameFormat>
 
             </configuration>
-
-        
-
         </plugin>
     </plugins>
   </build>

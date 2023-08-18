@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-failsafe-plugin/xsd/failsafe-test-report.xsd" name="demo.Junit4IT" time="0.046" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-failsafe-plugin/xsd/failsafe-test-report.xsd" name="demo.Junit4IT" time="0.083" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -17,7 +17,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="C:\Program Files (x86)\Java\jdk-11\bin"/>
-    <property name="sun.java.command" value="C:\Users\Geico\AppData\Local\Temp\surefire12772576921928126472\surefirebooter15854616667966036504.jar C:\Users\Geico\AppData\Local\Temp\surefire12772576921928126472 2023-08-18T07-33-39_143-jvmRun1 surefire4443549258268334099tmp surefire_014807111535981902969tmp"/>
+    <property name="sun.java.command" value="C:\Users\Geico\AppData\Local\Temp\surefire2282078564474942486\surefirebooter4880411203783890865.jar C:\Users\Geico\AppData\Local\Temp\surefire2282078564474942486 2023-08-18T10-52-54_913-jvmRun1 surefire3063221985146787869tmp surefire_03719507423359229406tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="D:\Zafin\my-webapp\target\test-classes;D:\Zafin\my-webapp\target\classes;C:\Users\Geico\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\Geico\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -33,7 +33,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\Geico\AppData\Local\Temp\surefire12772576921928126472\surefirebooter15854616667966036504.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Geico\AppData\Local\Temp\surefire2282078564474942486\surefirebooter4880411203783890865.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="11.0.18+9-LTS-195"/>
@@ -58,7 +58,6 @@
     <property name="java.vm.info" value="mixed mode"/>
     <property name="java.vm.version" value="11.0.18+9-LTS-195"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
-    <property name="maven.repo.local" value="C:\Users\Geico\.m2\repository"/>
     <property name="java.class.version" value="55.0"/>
   </properties>
   <testcase name="testProperty" classname="demo.Junit4IT" time="0.002"/>
