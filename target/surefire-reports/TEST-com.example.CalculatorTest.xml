@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="1" failures="0" name="com.example.CalculatorTest" time="0.003" errors="0" skipped="0">
+<testsuite tests="1" failures="0" name="com.example.CalculatorTest" time="0.002" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="11.0.18+9-LTS-195"/>
@@ -46,7 +46,7 @@
     <property name="java.class.path" value="C:\Program Files (x86)\Java\apache-maven-3.8.6\boot\plexus-classworlds-2.6.0.jar"/>
     <property name="java.vm.specification.version" value="11"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -D maven.repo.local=C:\Users\Geico\.m2\repository -s C:\Users\Geico\AppData\Local\Temp\release-settings2083732522108451630.xml clean verify"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -D maven.repo.local=C:\Users\Geico\.m2\repository -s C:\Users\Geico\AppData\Local\Temp\release-settings2617365966574346024.xml clean verify"/>
     <property name="java.home" value="C:\Program Files (x86)\Java\jdk-11"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
@@ -64,5 +64,5 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="com.example.CalculatorTest" name="testAdd" time="0.003"/>
+  <testcase classname="com.example.CalculatorTest" name="testAdd" time="0.002"/>
 </testsuite>
