@@ -1,14 +1,18 @@
 package demo;
 
 import org.junit.Test;
-
-import static org.junit.Assert.assertTrue;
+import static org.junit.Assert.assertEquals;
 
 public class Junit4IT {
 
-  @Test
-  public void testProperty() {
-    assertTrue(true);
-  }
+    @Test
+    public void testMultiply() {
+        int result = multiply(2, 3);
+        assertEquals(5, result);
+    }
 
+    private int multiply(int a, int b) {
+        return a * b;
+    }
 }
+

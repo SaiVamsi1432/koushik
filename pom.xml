@@ -3,7 +3,7 @@
   <groupId>com.example</groupId>
   <artifactId>my-webapp</artifactId>
   <packaging>war</packaging>
-  <version>1.0</version>
+  <version>1.0-SNAPSHOT</version>
   <name>my-webapp Maven Webapp</name>
   <url>http://maven.apache.org</url>
   
@@ -20,9 +20,9 @@
     </dependency>
   </dependencies>
   <scm>
-    <connection>scm:git:https://github.com/koushikdpk/skills-deploy-to-azure.git</connection>
-    <developerConnection>scm:git:https://github.com/koushikdpk/skills-deploy-to-azure.git</developerConnection>
-    <url>https://github.com/koushikdpk/skills-deploy-to-azure</url>
+    <connection>scm:git:https://github.com/koushikdpk/mvntest.git</connection>
+    <developerConnection>scm:git:https://github.com/koushikdpk/mvntest.git</developerConnection>
+    <url>https://github.com/koushikdpk/mvntest</url>
     <tag>v1.0</tag>
   </scm>
   <build>
@@ -43,7 +43,7 @@
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-failsafe-plugin</artifactId>
-        <version>2.22.0</version>
+        <version>3.0.0</version>
         <executions>
           <execution>
             <goals>
@@ -52,6 +52,11 @@
             </goals>
           </execution>
         </executions>
+        <configuration>
+                <includes>
+                    <include>**/Junit4IT.java</include>
+                </includes>
+            </configuration>
       </plugin>
       
       <!-- Enforcer Plugin -->
@@ -68,7 +73,8 @@
             <configuration>
               <rules>
                 <requireJavaVersion>
-                  <version>10</version>
+                  <version>[11,12)</version>
+                  
                 </requireJavaVersion>
                 <requireMavenVersion>
                   <version>2.8.6</version>
@@ -92,11 +98,12 @@
             </configuration>
         </plugin>
     </plugins>
+  
   </build>
 <distributionManagement>
   <repository>
     <id>github</id>
-    <url>https://github.com/koushikdpk/Zafin-localRepo.git</url>
+    <url>https://github.com/koushikdpk/mvntest.git</url>
   </repository>
 </distributionManagement>
 </project>
