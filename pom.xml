@@ -73,11 +73,11 @@
             <configuration>
               <rules>
                 <requireJavaVersion>
-                  <version>[11,12)</version>
+                  <version>[11.0.18]</version>
                   
                 </requireJavaVersion>
                 <requireMavenVersion>
-                  <version>2.8.6</version>
+                  <version>[3.8.6]</version>
                 </requireMavenVersion>
                  <requireOS>
                   <family>windows</family>
