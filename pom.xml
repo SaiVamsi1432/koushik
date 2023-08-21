@@ -20,9 +20,9 @@
     </dependency>
   </dependencies>
   <scm>
-    <connection>scm:git:https://github.com/koushikdpk/mvn1.git</connection>
-    <developerConnection>scm:git:https://github.com/koushikdpk/mvn1.git</developerConnection>
-    <url>https://github.com/koushikdpk/mvn1</url>
+    <connection>scm:git:https://github.com/koushikdpk/maven2.git</connection>
+    <developerConnection>scm:git:https://github.com/koushikdpk/maven2.git</developerConnection>
+    <url>https://github.com/koushikdpk/maven2</url>
     <tag>v1.0</tag>
   </scm>
   <build>
@@ -103,7 +103,7 @@
 <distributionManagement>
   <repository>
     <id>github</id>
-    <url>https://maven.pkg.github.com/koushikdpk/mvn1</url>
+    <url>https://maven.pkg.github.com/koushikdpk/maven2</url>
   </repository>
 </distributionManagement>
 </project>
